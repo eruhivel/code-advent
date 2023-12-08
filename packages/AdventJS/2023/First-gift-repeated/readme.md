@@ -1,4 +1,8 @@
-# Instructions
+# First gift repeated!
+
+This exercise can be found in [adventJS](https://adventjs.dev/en/challenges/2023/1).
+
+## Instructions
 
 In the toy factory of the North Pole, each toy has a unique identification number.
 

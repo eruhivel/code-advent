@@ -1,11 +1,10 @@
 export default function findFirstRepeated(gifts: Array<number>): number {
-  let firstRepitedGift: number = -1;
-  const giftList = new Set<number>();
-  gifts.forEach((gift: number) => {
-    if (giftList.has(gift)) {
-      console.log(gift);
-      firstRepitedGift = gift;
+  const giftSet = new Set<number>();
+  for (const gift of gifts) {
+    if (giftSet.has(gift)) {
+      return gift;
     }
-  });
-  return firstRepitedGift;
+    giftSet.add(gift);
+  }
+  return -1;
 }

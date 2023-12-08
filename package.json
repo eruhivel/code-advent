@@ -4,7 +4,9 @@
   "description": "This repository contains small code exercises from multiple sources, it is created for fun & learning purposes.",
   "author": "Enric Ruhi Velasco",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "test": "jest"
+  },
   "private": true,
   "devDependencies": {
     "@nx/js": "17.1.3",
